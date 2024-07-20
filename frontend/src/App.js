@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
     // fetch('https://reactnative.dev/movies.json')
-    fetch('http://192.168.1.8:8000/function1')
+    fetch('http://184.72.108.95:8000/function1')
       .then(response => response.text())
       .then(data => {
         setResponse(data);
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>hellow </h1>
+      <h1>howdy</h1>
       <p>{response}</p>
     </div>
   );
