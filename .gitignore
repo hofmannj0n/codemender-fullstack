@@ -1,6 +1,33 @@
 **/venv
 **/env
 
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+
+# Install log and requirements file
+backend/codemender/requirements.txt
+
+# Ignore the entire migrations directory
+backend/codemender/reviewer/migrations/
+
+# Ignore all pycache files in the codemender and reviewer directories
+backend/codemender/codemender/__pycache__/
+backend/codemender/reviewer/__pycache__/
+
+
 # Xcode
 !**/*.xcodeproj
 !**/*.pbxproj
