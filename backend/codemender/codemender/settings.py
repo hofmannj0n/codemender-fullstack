@@ -105,6 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React app URL
+    "http://codemender-frontend.s3-website-us-east-1.amazonaws.com", # S3 Bucket
 ]
 
 
